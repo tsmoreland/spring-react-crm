@@ -1,6 +1,5 @@
 package com.tsmoreland.misc.crm.model;
 
-import org.h2.command.Command;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -15,7 +14,7 @@ public class DemoLoader implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         this.repository.save(new Contact("Bruce", "Wayne", "bwayne@waynetech.com"));
         this.repository.save(new Contact("Clark", "Kent", "ckent@dailyplanet.com"));
         this.repository.save(new Contact("Diana", "Prince", "dprince@louvre.com"));
