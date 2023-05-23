@@ -1,11 +1,11 @@
-package com.tsmoreland.misc.crm;
+package com.tsmoreland.misc.crm.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrmApplication {
+public class RestDataApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CrmApplication.class, args);
+        SpringApplication.run(RestDataApplication.class, args);
     }
 }
